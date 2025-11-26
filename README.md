@@ -1,20 +1,44 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Saxon Kaige - Web Development
 
-# Run and deploy your AI Studio app
+> A portfolio landing page for Saxon Kaige, a solo developer building high-performance, custom websites.
 
-This contains everything you need to run your app locally.
+![Hero Screenshot](./screenshots/hero.png)
+*Replace this with an actual screenshot of the hero section*
 
-View your app in AI Studio: https://ai.studio/apps/drive/1C28_FRksoy-qLo2uePAYFHwqMlYX6RlW
+## Features
+
+- **Custom Design:** Unique, high-performance UI with glitch effects and smooth animations.
+- **Secret Terminal:** Interactive terminal hidden within the hero section for a developer-centric experience.
+- **Responsive Navigation:** Mobile-friendly navigation with smooth scrolling and active state tracking.
+- **Project Showcase:** Dedicated portfolio section to display past work and case studies.
+- **Contact Integration:** Direct email links and social media integration.
+- **SEO Optimized:** Built with semantic HTML, comprehensive metadata, and performance best practices.
+
+## The Tech
+
+Built with a modern, type-safe stack for performance and scalability:
+
+- **Frontend:** [React](https://react.dev/) (v19), [TypeScript](https://www.typescriptlang.org/)
+- **Build Tool:** [Vite](https://vitejs.dev/)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+- **Animations:** [Framer Motion](https://www.framer.com/motion/)
+- **Icons:** [Lucide React](https://lucide.dev/)
+- **Routing:** [React Router](https://reactrouter.com/)
+- **Backend/Database:** [Supabase](https://supabase.com/)
 
 ## Run Locally
 
-**Prerequisites:**  Node.js
+1. **Install dependencies:**
+   ```bash
+   npm install
+   ```
 
+2. **Run the development server:**
+   ```bash
+   npm run dev
+   ```
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+3. **Build for production:**
+   ```bash
+   npm run build
+   ```
