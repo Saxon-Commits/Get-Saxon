@@ -35,7 +35,7 @@ export default async function handler(request: Request) {
         const { firstName, lastName, email, company, role, service, message } = result.data;
 
         const { data, error } = await resend.emails.send({
-            from: 'Contact Form <onboarding@resend.dev>', // Change this to your verified domain later
+            from: 'Contact Form <contact@getsaxon.dev>',
             to: ['admin@getsaxon.dev'],
             replyTo: email,
             subject: `New Project Enquiry: ${service}`,
@@ -49,6 +49,7 @@ export default async function handler(request: Request) {
         <h3>Message:</h3>
         <p>${message}</p>
       `,
+            text: `Name: ${firstName} ${lastName}\nEmail: ${email}\nCompany: ${company || 'N/A'}\nRole: ${role || 'N/A'}\nService: ${service}\nMessage: ${message}`,
         });
 
         if (error) {
