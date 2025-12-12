@@ -51,7 +51,7 @@ export const Navbar: React.FC = () => {
               className="flex-shrink-0 flex items-center gap-2 font-extrabold text-xl tracking-tighter text-white hover:text-indigo-400 transition"
             >
               <Code2 className="w-7 h-7 text-indigo-500" />
-              <span>SAXON KAIGE</span>
+              <span>SAXON</span>
             </a>
           </div>
 

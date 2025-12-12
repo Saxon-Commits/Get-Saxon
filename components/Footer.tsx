@@ -9,7 +9,7 @@ export const Footer: React.FC = () => {
           <div className="col-span-1 md:col-span-1">
             <a href="#" className="flex items-center gap-2 font-extrabold text-xl text-white mb-6 hover:text-indigo-400 transition-colors">
               <Code2 className="w-6 h-6 text-indigo-500" />
-              <span>SAXON KAIGE</span>
+              <span>SAXON</span>
             </a>
             <p className="text-sm leading-relaxed mb-6 text-zinc-500">
               I help forward-thinking businesses build their digital presence through custom web development and strategic SEO.
@@ -58,8 +58,13 @@ export const Footer: React.FC = () => {
         </div>
 
         <div className="border-t border-zinc-900 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-zinc-600">
-          <p>&copy; {new Date().getFullYear()} Saxon Kaige. All rights reserved.</p>
-          <p className="mt-2 md:mt-0">Design & Code by Saxon.</p>
+          <p>&copy; {new Date().getFullYear()} Saxon. All rights reserved.</p>
+          <div className="flex flex-col items-center md:items-end gap-1 mt-4 md:mt-0">
+            <p>Design & Code by Saxon.</p>
+            <p className="text-xs text-zinc-700">
+              Built with React, Tailwind, Framer Motion, Resend & Vercel
+            </p>
+          </div>
         </div>
       </div>
     </footer>
