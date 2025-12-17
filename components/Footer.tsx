@@ -15,7 +15,7 @@ export const Footer: React.FC = () => {
               I help forward-thinking businesses build their digital presence through custom web development and strategic SEO.
             </p>
             <div className="flex space-x-5">
-              <a href="#" className="text-zinc-500 hover:text-indigo-400 transition-colors">
+              <a href="https://github.com/Saxon-Commits" target="_blank" rel="noopener noreferrer" className="text-zinc-500 hover:text-indigo-400 transition-colors">
                 <Github className="w-5 h-5" />
               </a>
               <a href="#" className="text-zinc-500 hover:text-indigo-400 transition-colors">

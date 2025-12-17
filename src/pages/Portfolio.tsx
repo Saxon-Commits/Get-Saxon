@@ -3,14 +3,7 @@ import { motion } from 'framer-motion';
 import { ExternalLink, Github, ArrowRight } from 'lucide-react';
 
 const projects = [
-    {
-        title: "InvoicyCRM",
-        category: "SaaS Application",
-        description: "A comprehensive business management tool featuring invoicing, quoting, expense tracking, and CRM capabilities. Built to streamline business operations.",
-        image: "/projects/invoicy-crm.png",
-        tags: ["React", "Dashboard", "Finance", "CRM"],
-        link: "https://invoicy-crm.vercel.app/#/dashboard"
-    },
+
     {
         title: "Wilson's Seafoods",
         category: "E-Commerce & Admin",
@@ -32,7 +25,7 @@ export const Portfolio: React.FC = () => {
                     className="text-center mb-16"
                 >
                     <h1 className="text-4xl md:text-5xl font-extrabold text-white mb-6 tracking-tight">
-                        Selected <span className="text-indigo-500">Works</span>
+                        My <span className="text-indigo-500">Work</span>
                     </h1>
                     <p className="text-xl text-zinc-400 max-w-2xl mx-auto">
                         A showcase of technical excellence and creative problem solving.
@@ -99,7 +92,7 @@ export const Portfolio: React.FC = () => {
                 >
                     <p className="text-zinc-400 mb-6">Interested in seeing more?</p>
                     <a
-                        href="https://github.com"
+                        href="https://github.com/Saxon-Commits"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="inline-flex items-center gap-2 text-white bg-zinc-800 hover:bg-zinc-700 px-6 py-3 rounded-full font-medium transition-colors"
