@@ -1,40 +1,110 @@
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Saxon Kaige - Professional Web Development</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            colors: {
-              zinc: {
-                850: '#1f2937', // Dark gray adaptation
-                950: '#09090b', // Deep dark for footer/nav
-              },
-              indigo: {
-                400: '#818cf8',
-                500: '#6366f1',
-                600: '#4f46e5',
-                700: '#4338ca',
-              },
-              violet: {
-                500: '#8b5cf6',
-              }
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Primary Meta Tags -->
+  <title>Saxon Kaige - Professional Web Development | Custom Websites That Convert</title>
+  <meta name="title" content="Saxon Kaige - Professional Web Development | Custom Websites That Convert" />
+  <meta name="description"
+    content="Freelance web developer specializing in high-converting, custom websites for businesses. Expert in React, TypeScript, and modern web technologies. Get your free proposal today." />
+  <meta name="keywords"
+    content="web developer, freelance web developer, custom websites, React developer, TypeScript, web development Sydney, business websites, SEO optimization, responsive design" />
+  <meta name="author" content="Saxon Kaige" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://getsaxon.dev/" />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://getsaxon.dev/" />
+  <meta property="og:title" content="Saxon Kaige - Professional Web Development | Custom Websites That Convert" />
+  <meta property="og:description"
+    content="Freelance web developer specializing in high-converting, custom websites for businesses. Expert in React, TypeScript, and modern web technologies." />
+  <meta property="og:image" content="https://getsaxon.dev/og-image.jpg" />
+  <meta property="og:site_name" content="Saxon Kaige Web Development" />
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content="https://getsaxon.dev/" />
+  <meta property="twitter:title" content="Saxon Kaige - Professional Web Development" />
+  <meta property="twitter:description"
+    content="Freelance web developer specializing in high-converting, custom websites for businesses." />
+  <meta property="twitter:image" content="https://getsaxon.dev/og-image.jpg" />
+
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Saxon Kaige - Web Development",
+      "image": "https://getsaxon.dev/og-image.jpg",
+      "description": "Professional freelance web developer specializing in custom, high-converting websites for businesses of all sizes.",
+      "url": "https://getsaxon.dev",
+      "telephone": "+61-XXX-XXX-XXX",
+      "email": "contact@getsaxon.dev",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Sydney",
+        "addressRegion": "NSW",
+        "addressCountry": "AU"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "-33.8688",
+        "longitude": "151.2093"
+      },
+      "priceRange": "$$",
+      "openingHours": "Mo-Fr 09:00-18:00",
+      "sameAs": [
+        "https://github.com/yourusername",
+        "https://linkedin.com/in/yourprofile"
+      ],
+      "serviceType": [
+        "Web Development",
+        "Web Design",
+        "SEO Optimization",
+        "Custom Website Development",
+        "E-commerce Development"
+      ]
+    }
+    </script>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            zinc: {
+              850: '#1f2937', // Dark gray adaptation
+              950: '#09090b', // Deep dark for footer/nav
             },
-            fontFamily: {
-              sans: ['Inter', 'sans-serif'],
+            indigo: {
+              400: '#818cf8',
+              500: '#6366f1',
+              600: '#4f46e5',
+              700: '#4338ca',
+            },
+            violet: {
+              500: '#8b5cf6',
             }
+          },
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
           }
         }
       }
-    </script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <style>
-      body { font-family: 'Inter', sans-serif; }
-    </style>
+    }
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+  </style>
   <script type="importmap">
 {
   "imports": {
@@ -45,10 +115,12 @@
   }
 }
 </script>
-<link rel="stylesheet" href="/index.css">
+  <link rel="stylesheet" href="/index.css">
 </head>
-  <body class="bg-zinc-50 text-zinc-900 antialiased">
-    <div id="root"></div>
+
+<body class="bg-zinc-50 text-zinc-900 antialiased">
+  <div id="root"></div>
   <script type="module" src="/index.tsx"></script>
 </body>
+
 </html>

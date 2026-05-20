@@ -226,8 +226,8 @@ export const Hero: React.FC = () => {
           <div className="mt-12 border-t border-zinc-800/50 pt-8 flex flex-wrap gap-8 text-sm text-zinc-500 font-medium">
             <span>// Custom Development</span>
             <span>// SEO Optimized</span>
+            <span>// Fast & Responsive</span>
             <span>// Direct Communication</span>
-            <span>// No Agencies, Just Me</span>
           </div>
         </div>
       </div>
