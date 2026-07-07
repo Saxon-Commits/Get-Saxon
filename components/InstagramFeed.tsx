@@ -152,7 +152,7 @@ export const InstagramFeed: React.FC = () => {
               {[...Array(6)].map((_, i) => (
                 <div 
                   key={i} 
-                  className="aspect-square bg-zinc-800/50 rounded-xl animate-pulse border border-zinc-700/20"
+                  className="aspect-video bg-zinc-800/50 rounded-xl animate-pulse border border-zinc-700/20"
                 />
               ))}
             </div>
@@ -189,7 +189,7 @@ export const InstagramFeed: React.FC = () => {
                     href={post.permalink}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="relative group aspect-square rounded-xl overflow-hidden bg-zinc-950 border border-zinc-800/40 hover:border-indigo-500/50 transition-all duration-300"
+                    className="relative group aspect-video rounded-xl overflow-hidden bg-zinc-950 border border-zinc-800/40 hover:border-indigo-500/50 transition-all duration-300"
                   >
                     <img
                       src={getImageUrl(post)}
@@ -232,7 +232,7 @@ export const InstagramFeed: React.FC = () => {
                           href={post.permalink}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="block relative aspect-square rounded-lg overflow-hidden border border-zinc-800 bg-zinc-950"
+                          className="block relative aspect-video rounded-lg overflow-hidden border border-zinc-800 bg-zinc-950"
                         >
                           <img
                             src={getImageUrl(post)}

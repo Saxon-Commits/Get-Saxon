@@ -6,7 +6,6 @@ import { NavLink } from '../types';
 const navLinks: NavLink[] = [
   { name: 'Home', href: '/' },
   { name: 'Services', href: '#services' },
-  { name: 'Packages', href: '/packages' },
   { name: 'Portfolio', href: '/portfolio' },
   { name: 'Contact', href: '#contact' },
 ];
